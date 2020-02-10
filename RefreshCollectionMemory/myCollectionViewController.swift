@@ -36,7 +36,7 @@ class myCollectionViewController: UICollectionViewController, UICollectionViewDe
     override func viewDidLoad() {
         super.viewDidLoad()
   
-       
+       title = "Nate's Refresher on iOS Business Stuff"
         viewData = myData(names: ["Thomas","Jerry","George","Mitch","Pam","Susan"])
         data = childData(children: ["hello","good-bye","later","minutes","adios"])
         
